@@ -62,6 +62,7 @@ run;
 
 
 * Join Crsp data to compustat. Match by cusip to each daily crsp ret;
+* MAYBE REVISE AND USE LINK TABLE;
 proc sql;
 	create table 		combo1
 	as select			a.*, b.*
